@@ -3,16 +3,16 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NodeExpressionBuilderComponent } from './node-expression-builder/node-expression-builder.component';
+import {NodeExpressionBuilderModule} from "./node-expression-builder/node-expression-builder.module";
 
 @NgModule({
   declarations: [
-    AppComponent,
-    NodeExpressionBuilderComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NodeExpressionBuilderModule
   ],
   providers: [],
   bootstrap: [AppComponent]

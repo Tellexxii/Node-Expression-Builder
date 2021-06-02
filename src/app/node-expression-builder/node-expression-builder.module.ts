@@ -7,7 +7,8 @@ import {NodeExpressionBuilderComponent} from "./node-expression-builder.componen
   declarations: [NodeExpressionBuilderComponent],
   imports: [
     CommonModule
-  ]
+  ],
+  exports: [NodeExpressionBuilderComponent]
 })
 export class NodeExpressionBuilderModule {
 }
